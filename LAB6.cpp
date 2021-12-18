@@ -24,7 +24,7 @@ int MINidx(pageNumber *pN, int i, int m)
 
 int FINDidx(pageNumber *pN, int i, int m, int n, int a[])
 {
-    int max = i + 1;
+    int max = 0;
     int idx = 0;
     for (int j=0; j<m; j++)
     {

@@ -42,6 +42,7 @@ int FINDidx(pageNumber *pN, int i, int m, int n, int a[])
             {
                 max = temp;
                 idx = j;
+                break;
             }
         }
     }

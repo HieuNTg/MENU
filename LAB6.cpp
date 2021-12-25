@@ -337,7 +337,7 @@ int main()
             LRU(pN, n, m, sequence);
             break;
     }
-    
+    return 1;
 }
 
 
